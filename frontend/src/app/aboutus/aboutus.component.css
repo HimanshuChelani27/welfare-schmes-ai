@@ -1,0 +1,47 @@
+.about-us-container {
+    background-color: #00ffae;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center;
+  }
+  
+  .about-section, .members-section, .college-section {
+    background-color: #fffefe;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 95%; /* Set the width of the sections */
+  text-align: center; 
+  }
+  
+  .member-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust alignment of member cards */
+  }
+  
+  .member-card {
+    width: 200px; /* Set width to limit card size */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .member-card img {
+    max-width: 100%; /* Make image responsive within card */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  @media (max-width: 600px) {
+    .member-card {
+      width: calc(50% - 20px); /* Adjust card width for smaller screens */
+    }
+  }
+  

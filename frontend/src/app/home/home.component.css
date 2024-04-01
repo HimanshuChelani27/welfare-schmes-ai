@@ -1,0 +1,67 @@
+.scheme-card {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-size: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+
+  .scheme-grid {
+    background-color: rgb(233, 255, 255);
+    padding-left: 180px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* Three columns */
+    gap: 20px; /* Gap between cards */
+  }
+
+ 
+  .scheme-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .scheme-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .scheme-card h2 {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .scheme-details {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .scheme-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .scheme-details p {
+    font-size: 16px;
+  }
+
+
+
+
+  .back-button {
+    position: absolute;
+    top: 80px; /* Adjust top position as needed */
+    left: 40px; /* Adjust left position as needed */
+    cursor: pointer;
+  }
+  
+  .button-image {
+    width: 80px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+  }

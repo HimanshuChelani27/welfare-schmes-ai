@@ -1,0 +1,33 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6a68f;
+    color: #43bb95;
+    padding: 20px 30px;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  a:not(:first-child) {
+  margin-left: 20px;
+}
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  a {
+    color: #121615;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

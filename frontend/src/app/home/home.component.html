@@ -1,0 +1,85 @@
+<!-- <div class="scheme-card" (click)="openSchemeDetails('social_welfare')">
+    <img src="social_welfare.jpg" alt="Social Welfare">
+    <h2>Govt. Schemes for Social Welfare</h2>
+  </div>
+
+  
+  <div class="scheme-details" *ngIf="selectedScheme">
+    <h2>{{ selectedScheme.title }}</h2>
+    <p>{{ selectedScheme.description }}</p>
+
+  </div> -->
+  <app-navigation></app-navigation>
+
+  <div *ngIf="!showSubCards" class="scheme-grid">
+
+  <div class="scheme-card" (click)="toggleSubCards('social_welfare')">
+    <img src="https://th.bing.com/th/id/OIP._VIS4pxv1v0NZp19oeW5FgAAAA?rs=1&pid=ImgDetMain" alt="Social Welfare">
+    <h2>Govt. Schemes for Social Welfare</h2>
+  </div>
+
+
+  <div class="scheme-card" (click)="toggleSubCards('woman_and_child')">
+    
+    <img src="https://th.bing.com/th/id/OIP.HA39RMj_mmjR-noP_U9JjAHaGB?rs=1&pid=ImgDetMain" alt="woman and child">
+    <h2>Govt. Schemes for Woman and Child</h2>
+  </div>
+
+  <div class="scheme-card" (click)="toggleSubCards('infrastructure')">
+    <img src="https://createdigital.org.au/wp-content/uploads/2017/12/infrastructure-2.jpg" alt="infrastructure">
+    <h2>Govt. Schemes for Infrastructure Development</h2>
+  </div>
+
+  <div class="scheme-card" >
+    <img src="https://www.naco.org/sites/default/files/articles/GettyImages-1013744306_LeadEdge.jpg" alt="Social Welfare">
+    <h2>Govt. Schemes for Economic Development</h2>
+  </div>
+
+  <div class="scheme-card" >
+    <img src="https://www.oneindia.com/img/1200x80/2016/06/environment-nature-04-1465015585.jpg" alt="Social Welfare">
+    <h2>Govt. Schemes for Environment</h2>
+  </div>
+
+
+  <div class="scheme-card" >
+    <img src="https://americanonlinebenefits.com/wp-content/uploads/2019/11/healthcare-768x512.png" alt="Social Welfare">
+    <h2>Govt. Schemes for Healthcare</h2>
+  </div>
+
+
+
+
+
+
+
+  <div class="scheme-card" >
+    <img src="https://playerstrust.blob.core.windows.net/media/Default/blog-images/AthLife/skills-portfolio.jpg" alt="Social Welfare">
+    <h2>Govt. Schemes for Education and Skill Improvement</h2>
+  </div>
+
+  <div class="scheme-card" >
+    <img src="https://www.inventiva.co.in/wp-content/uploads/2021/03/19.jpg" alt="Social Welfare">
+    <h2>Govt. Schemes for Agricultural Sector and Farmers</h2>
+  </div>
+
+
+  <div class="scheme-card" >
+    <img src="https://th.bing.com/th/id/OIP.-hyNQYp_Wdz1oy3vfsNH9AHaFj?rs=1&pid=ImgDetMain" alt="Social Welfare">
+    <h2>Govt. Schemes to Generate Employment</h2>
+  </div>
+  
+</div>
+
+<!-- <div class="scheme-grid"> -->
+<div class="scheme-grid" *ngIf="showSubCards">
+
+    <div class="back-button" (click)="goBack()">
+        <img src="../../assets/backbutton.webp" alt="Back" class="button-image">
+      </div>
+    <div class="scheme-card" *ngFor="let subCard of subCards" (click)="navigateToExternalUrl(subCard.url)">
+      <h3>{{ subCard.title }}</h3>
+      <!-- <p>{{ subCard.description }}</p> -->
+    </div>
+  </div>
+
+  <!-- </div> -->
