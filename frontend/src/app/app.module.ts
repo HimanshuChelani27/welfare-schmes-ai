@@ -11,6 +11,8 @@ import { ChatbotComponent } from './chatbot/chatbot.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { FirstHomeComponent } from './first-home/first-home.component';
+import { HomeheadnavComponent } from './homeheadnav/homeheadnav.component';
 // import { MatButtonModule } from '@angular/material/button';
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     NavigationComponent,
     HomeComponent,
     ChatbotComponent,
-    AboutusComponent
+    AboutusComponent,
+    FirstHomeComponent,
+    HomeheadnavComponent
   ],
   imports: [
     BrowserModule,

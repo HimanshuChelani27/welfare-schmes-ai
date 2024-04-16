@@ -5,12 +5,15 @@ import { LoginComponent } from './login/login.component';
 import { ChatbotComponent } from './chatbot/chatbot.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { FirstHomeComponent } from './first-home/first-home.component';
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
   {path:'login', component: LoginComponent},
   {path: 'chatbot', component: ChatbotComponent},
-  { path: '', redirectTo: '/registration', pathMatch: 'full' },
+  { path: '', redirectTo: '/firstHome', pathMatch: 'full' },
+  
+  {path: 'firstHome', component: FirstHomeComponent},
   {path: 'registration', component: RegistrationComponent},
   {path: 'aboutus', component: AboutusComponent}
 ];

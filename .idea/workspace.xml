@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03cf750f-2bc4-4bf6-9df8-33d9172f9b29" name="Default Changelist" comment="Himanshu: 1st commit">
-      <change afterPath="$PROJECT_DIR$/.idea/Welfar AI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="03cf750f-2bc4-4bf6-9df8-33d9172f9b29" name="Default Changelist" comment="Himanshu: 1st commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711930150763</updated>
       <workItem from="1711930159451" duration="709000" />
+      <workItem from="1712720757416" duration="593000" />
     </task>
     <task id="LOCAL-00001" summary="Himanshu: 1st commit">
       <created>1711930327855</created>
@@ -63,6 +60,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Himanshu: 1st commit" />
